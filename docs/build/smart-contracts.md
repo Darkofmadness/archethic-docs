@@ -47,7 +47,7 @@ But clients which depends on the smart contract don't need to update their code 
 
 So if we send a transaction to `0D574D171A484F8DEAC2D61FC3F7CC984BEB52465D69B3B5F670090742CBF5CC`, the code executed will be at `AF28C3D5B3828AD3F8682F1B1D14A8507B829F65F7BE6C50427A6019CCB6801C`
 
-?> Also, because we are not relying on internal state and database, and only with the UTXO, we do need to provide migrations of data or funds, and neither implement cross shard synchronization
+?> Also, because we are not relying on internal state and database, and only with the UTXO, we do not need to provide migrations of data or funds, and neither implement cross shard synchronization
 
 ## Interpreted
 
